@@ -1,0 +1,118 @@
+body {
+    text-align: center;
+    background-color: white;
+    color: rgb(34, 34, 34);
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+/*header*/
+header {
+    background-color: rgb(219, 4, 4);
+
+    ul {
+        li {
+            list-style: none;
+            display: inline-block;
+
+            a {
+                margin: 40px;
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 1.7em;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+        }
+    }
+}
+
+.calendario {
+    background-color: rgb(245, 245, 245);
+
+    table {
+        width: 350px;
+        margin: 0 auto;
+        border-collapse: collapse;
+
+        tr {
+            td {
+                border: 1px solid black;
+            }
+        }
+    }
+}
+
+/*main*/
+.noticia {
+    display: flex;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.noticia1 {
+    display: flex;
+    margin: 40px;
+
+    a {
+        margin: 40px;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        margin: 0;
+    border: 0;
+    padding: 0;
+    }
+}
+
+
+.productos {
+    a{
+        text-decoration: none;
+    }
+    .masproductos {
+        border:10;
+        margin: 40px;
+        color: white;
+        background-color: red;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.7em;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+/*footer*/
+footer {
+    background-color: rgb(10, 10, 10);
+
+    ul {
+        li {
+            list-style: none;
+            display: inline-block;
+
+            a {
+                margin: 40px;
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 1.7em;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+        }
+    }
+
+    p {
+        color: white;
+        margin: 0px;
+    }
+}
